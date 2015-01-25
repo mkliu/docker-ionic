@@ -8,6 +8,4 @@ RUN apt-get install -y npm && ln -s /usr/bin/nodejs /usr/local/bin/node
 
 RUN npm install -g cordova ionic
 
-EXPOSE 8100
-EXPOSE 35729
 
